@@ -192,3 +192,72 @@ ul{
 a{
     color:#2563eb;
 }
+/* Experience Timeline */
+.timeline{
+    position:relative;
+
+    margin-top:30px;
+}
+
+/* Vertical Line */
+.timeline::before{
+    content:"";
+
+    position:absolute;
+
+    left:14px;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:#2563eb;
+
+    border-radius:10px;
+}
+
+/* Experience Entry */
+.experience-item{
+    position:relative;
+
+    padding-left:50px;
+
+    margin-bottom:50px;
+}
+
+/* Circle on Timeline */
+.experience-item::before{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:5px;
+
+    width:32px;
+
+    height:32px;
+
+    background:#2563eb;
+
+    border-radius:50%;
+}
+
+/* Job Title */
+.experience-item h3{
+    margin-bottom:10px;
+
+    color:#1e3a8a;
+}
+
+/* Bullet Points */
+.experience-item ul{
+    margin-left:20px;
+}
+
+.experience-item li{
+    margin-bottom:8px;
+}
