@@ -23,10 +23,11 @@ nav{
     width:100%;
 
     display:flex;
-    justify-content:center;
-    gap:30px;
+    justify-content:flex-end;
 
-    padding:20px;
+    gap:40px;
+
+    padding:20px 60px;
 
     background:rgba(15,23,42,0.95);
 
@@ -34,17 +35,18 @@ nav{
 }
 
 nav a{
-    color:white;
+    color:#b8c4d9;
+
     text-decoration:none;
+
     font-weight:bold;
-    transition:color 0.3s ease;
+
+    transition:0.3s ease;
 }
 
 nav a:hover{
-    color:#60a5fa;
+    color:#2563eb;
 }
-
-/* Hero Section */
 /* Hero Section */
 header{
     min-height:100vh;
