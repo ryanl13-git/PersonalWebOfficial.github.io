@@ -139,14 +139,7 @@ section{
     min-height:80vh;
 }
 
-/* Content Wrapper */
-.section-content{
-    max-width:1200px;
 
-    margin:auto;
-
-    padding:0 60px;
-}
 
 /* Alternating Section Colors */
 .light-section{
@@ -347,22 +340,18 @@ a{
 
 /* Contact Cards */
 .contact-card{
+    flex:1;
+    min-width:250px;
+    max-width:350px;
+
     background:white;
-
-    width:280px;
-
     padding:30px;
-
     border-radius:12px;
-
     text-align:center;
-
     text-decoration:none;
-
     color:#333;
 
-    box-shadow:
-        0 4px 10px rgba(0,0,0,0.15);
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
 
     transition:
         transform 0.3s ease,
@@ -370,7 +359,6 @@ a{
         color 0.3s ease,
         box-shadow 0.3s ease;
 }
-
 /* Hover Effect */
 .contact-card:hover{
     background:#2563eb;
