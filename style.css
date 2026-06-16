@@ -129,12 +129,19 @@ section{
 }
 
 /* Section Titles */
-section h2{
-    margin-bottom:20px;
+.light-section h2{
     color:#1e3a8a;
 }
 
+.dark-section h2{
+    color:white;
+}
+
 /* Project Cards */
+.dark-section .project-card{
+    background:#1e293b;
+    color:white;
+}
 .project-card{
     background:white;
 
@@ -166,6 +173,10 @@ section h2{
 }
 
 /* Skill Cards */
+.dark-section .skill-card{
+    background:#1e293b;
+    color:white;
+}
 .skill-card{
     background:white;
 
@@ -266,4 +277,13 @@ a{
 
 .experience-item li{
     margin-bottom:8px;
+}
+.light-section{
+    background:white;
+    color:#333;
+}
+
+.dark-section{
+    background:#0f172a;
+    color:white;
 }
