@@ -53,13 +53,17 @@ nav a:hover{
 header{
     min-height:100vh;
 
-    background:white;
+    background:linear-gradient(
+        135deg,
+        #cfd9e6 0%,
+        #dce4ee 45%,
+        #f2f2f2 100%
+    );
 
     display:flex;
     justify-content:center;
     align-items:center;
 }
-
 /* Hero Layout */
 .hero-content{
     width:80%;
@@ -68,6 +72,14 @@ header{
     align-items:center;
 
     gap:80px;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.25);
+
+    backdrop-filter:blur(8px);
 }
 
 /* Profile Image */
