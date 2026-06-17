@@ -166,7 +166,10 @@ section{
     min-height:80vh;
     background-size:200% 200%;
 }
-
+section h2{
+    font-size:3rem;
+    margin-bottom:30px;
+}
 
 
 /* Alternating Section Colors */
